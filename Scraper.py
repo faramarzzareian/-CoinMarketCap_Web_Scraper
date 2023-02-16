@@ -3,11 +3,12 @@ import requests
 from bs4 import BeautifulSoup
 
 # Set up the default URL and class name
-default_url = 'https://coinmarketcap.com/currencies/ethereum/'
+default_url = ''
 class_name = 'sc-d13d1ec-0 eNSKxK'
 
 # Get the user input for the URL
-url = st.text_input('Enter the URL:', default_url)
+url1 = st.text_input('Enter the Project Name:', default_url)
+url= ('https://coinmarketcap.com/currencies/' + url1)
 
 # Create a "Refresh" button to refresh the entire webpage
 if st.button('Refresh'):
