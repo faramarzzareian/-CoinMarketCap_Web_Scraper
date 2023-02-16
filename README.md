@@ -19,7 +19,6 @@ This is a simple web scraper built using Python and Streamlit that allows the us
 ## Acknowledgments
 
 This web scraper was built using the following resources:
-
-    [Streamlit Documentation](https://docs.streamlit.io/en/stable/)
-    [Python Requests Documentation](https://docs.python-requests.org/en/latest/)
+    [Streamlit Documentation](https://docs.streamlit.io/en/stable/),
+    [Python Requests Documentation](https://docs.python-requests.org/en/latest/),
     [BeautifulSoup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
